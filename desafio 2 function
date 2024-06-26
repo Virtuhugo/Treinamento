@@ -1,0 +1,30 @@
+
+function exibirOla() {
+console.log('Ola mundo');
+}
+exibirOla();
+
+function exibirOlaNome(nome) 
+    console.log(`Olá, ${nome}`);
+}
+exibirOlaNome();
+
+
+function calcularDobro(numero) {
+    return numero * 2; 
+}
+let resultadoDobro = calcularDobro();
+console.log(resultadoDobro);
+
+
+function calcularMedia(numero1, numero2, numero3) {
+    return (numero1+numero2+numero3)/3;
+}
+let media = calcularMedia();
+console.log(media);
+
+function encontrarMaior (a,b) {
+    return a > b ? a : b;
+}
+
+
